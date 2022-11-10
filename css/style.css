@@ -5,6 +5,17 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+.hero {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: url("../images/slider-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+}
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
